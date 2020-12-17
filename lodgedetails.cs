@@ -14,7 +14,7 @@ namespace Lodge
             Problemdetails Problem=new Problemdetails();
             while (entrance.Equals("yes"))
             {
-                Console.WriteLine("1.Do You want to order: .       2.report an Problem.         3.show Problem. 4.exit.");
+                Console.WriteLine("1.Do You want to order: .       2.report an Problem.       3.show Problem. 4.exit.");
                 Console.Write("Enter your choice: ");
                 int choice = Convert.ToInt16(Console.ReadLine());
                 switch (choice)
